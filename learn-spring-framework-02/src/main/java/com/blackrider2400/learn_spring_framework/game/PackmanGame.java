@@ -1,5 +1,9 @@
 package com.blackrider2400.learn_spring_framework.game;
 
+
+import org.springframework.stereotype.Component;
+
+@Component
 public class PackmanGame implements Game {
 
     public void up() {

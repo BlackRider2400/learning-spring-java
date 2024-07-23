@@ -1,9 +1,13 @@
 package com.blackrider2400.learn_spring_framework.game;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
 public class GameRunner {
 
-    Game game;
-    public GameRunner(Game game) {
+    private Game game;
+    public GameRunner(@Qualifier("SuperContraGameQualifier") Game game) {
         this.game = game;
     }
 

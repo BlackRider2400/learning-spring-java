@@ -1,4 +1,4 @@
-package com.blackrider2400.learn_spring_framework;
+package com.blackrider2400.learn_spring_framework.game;
 
 import com.blackrider2400.learn_spring_framework.game.GameConsoleConfiguration;
 import com.blackrider2400.learn_spring_framework.game.GameRunner;
